@@ -1,0 +1,31 @@
+body{
+	font-family: sans-serif;
+
+	margin: 0;
+}
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+}
+.box{
+	font-size: 6vh;
+
+	width: 30vh;
+	height: 30vh;
+	margin: auto auto;
+
+	border: .2vh black solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.jack{
+	font-weight: 900;
+
+	position: relative;
+	width: 100%;
+
+	background-color: yellow;
+}

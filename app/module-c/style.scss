@@ -1,0 +1,60 @@
+body{
+	font-family: sans-serif;
+
+	margin: 0;
+}
+.measures{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: rows;
+	min-height: 100vh;
+}
+.unitsection{
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+	justify-content: center;
+	padding: 8vw;
+	box-sizing: border-box;
+	min-height: 50vh;
+}
+.unit{
+	color: white;
+	background-color: black;
+	flex-grow: 0;
+	font-size: 1.25rem;
+	font-weight: 900;
+	box-sizing: border;
+	padding: 0 0.5rem;
+}
+.px{
+	width: 100px;
+}
+.pt{
+	width: 100pt;
+}
+.in{
+	width: 2in;
+}
+.cm{
+	width: 2cm;
+}
+
+.em{
+	width: 5em;
+}
+.rem{
+	width: 5rem;
+}
+.ex{
+	width: 5ex;
+}
+.ch{
+	width: 10ch;
+}
+.vw5{
+	width: 10vw;
+}
+.vh5{
+	width: 10vh;
+}

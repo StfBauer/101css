@@ -1,0 +1,51 @@
+body{
+	font-family: sans-serif;
+
+	margin: 0;
+}
+.football{
+	display: grid;
+
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+	padding: .5vw;
+
+	grid-auto-flow: column;
+	grid-gap: .5vw;
+	grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: 1fr;
+}
+.yards{
+	font-weight: 900;
+
+	display: flex;
+	justify-content: flex-end;
+
+	text-transform: rotate(45deg);
+
+	color: white;
+	background-color: green;
+
+	align-content: flex-start;
+	align-items: center;
+}
+.marker{
+	font-size: 2vw;
+  line-height: 1h;
+
+	display: flex;
+	justify-content: center;
+
+	transform: rotate(90deg);
+	transform-origin: center center;
+
+	color: white;
+
+	align-items: bottom;
+	// background-color: black;
+}
+
+.endzone{
+  background-color: blue;
+}
